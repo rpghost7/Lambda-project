@@ -70,18 +70,22 @@ p {
     
 }
 
-.home-button,
-.about-button,
-.search-button {
+.home-button
+ {
     width: 100px;
-    padding: 14px;
+    height: 100%;
+    /* padding: 14px; */
     font-size: 18px;
     text-align: center;
     color: black;
-
-
+    border: none;
+    background-color: rgb(229, 223, 165);
+   
 }
-
+.home-button:hover {
+    background-color: rgb(206, 194, 88);
+    cursor: pointer;
+}
 .header-section {
     display: flex;
     flex-direction: row;
@@ -103,10 +107,7 @@ left: 1500px;
     background-color: rgb(202, 184, 22);
     cursor: pointer;
 }
-.home-button:hover {
-    background-color: rgb(206, 194, 88);
-    cursor: pointer;
-}
+
 .home-button-link{
     color: black;
     text-decoration: none;
@@ -183,3 +184,4 @@ left: 1500px;
     text-align: center;
     font-size: 30px;
 }
+
