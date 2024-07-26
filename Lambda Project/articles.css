@@ -71,17 +71,21 @@ p {
 }
 .header-scroll{
     height: 35px;
+    font-size: 12px;
 }
-.home-button,
-.about-button,
-.search-button {
+.home-button
+ {
     width: 100px;
-    padding: 14px;
+    height: 100%;
+    /* padding: 14px; */
     font-size: 18px;
     text-align: center;
     color: black;
+    border: none;
+    background-color: rgb(229, 223, 165);
    
 }
+
 
 .header-section {
     display: flex;
